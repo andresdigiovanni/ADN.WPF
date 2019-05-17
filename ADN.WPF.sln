@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADN.WPF", "ADN.WPF\ADN.WPF.csproj", "{53FD2F87-0DC4-4217-B94F-9C7D5460CA95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53FD2F87-0DC4-4217-B94F-9C7D5460CA95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53FD2F87-0DC4-4217-B94F-9C7D5460CA95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53FD2F87-0DC4-4217-B94F-9C7D5460CA95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53FD2F87-0DC4-4217-B94F-9C7D5460CA95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18C81A87-34BE-4EAF-AE4A-2DB83BD14EB4}
+	EndGlobalSection
+EndGlobal
