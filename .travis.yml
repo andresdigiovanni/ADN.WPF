@@ -1,0 +1,9 @@
+language: csharp
+solution: ADN.WPF.sln
+mono: latest
+dotnet: 2.0.0
+script:
+  - dotnet restore
+  - dotnet build ./src/ADN.WPF/
+  - dotnet build ./tests/ADN.WPF.Tests/
+  - dotnet test ./tests/ADN.WPF.Tests/
