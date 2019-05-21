@@ -7,7 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADN.WPF", "src\ADN.WPF\ADN.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9A75F594-9534-41A3-BB7D-9D5C0CC6B6FC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{46749C08-F778-4D68-B822-4FDB61364CBD}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{46749C08-F778-4D68-B822-4FDB61364CBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controls", "Controls", "{74FFAED9-2747-4EF8-81C0-4A3CBBA96AE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindableTextBlockSample", "samples\Controls\BindableTextBlockSample\BindableTextBlockSample.csproj", "{984FAA85-272E-4369-9BD3-BA08488AF7A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,12 +23,18 @@ Global
 		{53FD2F87-0DC4-4217-B94F-9C7D5460CA95}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53FD2F87-0DC4-4217-B94F-9C7D5460CA95}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53FD2F87-0DC4-4217-B94F-9C7D5460CA95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{984FAA85-272E-4369-9BD3-BA08488AF7A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{984FAA85-272E-4369-9BD3-BA08488AF7A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{984FAA85-272E-4369-9BD3-BA08488AF7A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{984FAA85-272E-4369-9BD3-BA08488AF7A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{53FD2F87-0DC4-4217-B94F-9C7D5460CA95} = {9A75F594-9534-41A3-BB7D-9D5C0CC6B6FC}
+		{74FFAED9-2747-4EF8-81C0-4A3CBBA96AE7} = {46749C08-F778-4D68-B822-4FDB61364CBD}
+		{984FAA85-272E-4369-9BD3-BA08488AF7A9} = {74FFAED9-2747-4EF8-81C0-4A3CBBA96AE7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {18C81A87-34BE-4EAF-AE4A-2DB83BD14EB4}
