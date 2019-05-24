@@ -35,7 +35,10 @@ namespace ADN.WPF.Controls
         {
             var textBlock = (BindableTextBlock)sender;
             textBlock.Inlines.Clear();
-            textBlock.Inlines.AddRange((ObservableCollection<Inline>)e.NewValue);
+            if (e.NewValue != null)
+            {
+                textBlock.Inlines.AddRange((ObservableCollection<Inline>)e.NewValue);
+            }
         }
     }
 }
