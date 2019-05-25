@@ -10,8 +10,21 @@ using System.Windows.Documents;
 
 namespace ADN.WPF.Controls
 {
+    /// <summary>
+    /// Control that extends <see cref="TextBlock"/> functionality providing a bindable control.
+    /// </summary>
     public class BindableTextBlock : TextBlock
     {
+        /// <summary>
+        /// Control content.
+        /// </summary>
+        /// <example>
+        /// <code>
+        /// /* Create the control in your .xaml */
+        /// 
+        /// <BindableTextBlock InlineList="{Binding Path=<your_property>}"/>
+        /// </code>
+        /// </example>
         public ObservableCollection<Inline> InlineList
         {
             get
@@ -24,7 +37,7 @@ namespace ADN.WPF.Controls
             }
         }
 
-        public static readonly DependencyProperty InlineListProperty =
+        private static readonly DependencyProperty InlineListProperty =
             DependencyProperty.Register(
                 "InlineList",
                 typeof(ObservableCollection<Inline>),

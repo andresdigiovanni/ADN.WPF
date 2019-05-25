@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:BindableTextBlockSample"
         xmlns:controls="clr-namespace:ADN.WPF.Controls;assembly=ADN.WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="400">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />

@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ADN.WPF</name>
+    </assembly>
+    <members>
+        <member name="T:ADN.WPF.Controls.BindableTextBlock">
+            <summary>
+            Control that extends <see cref="T:System.Windows.Controls.TextBlock"/> functionality providing a bindable control.
+            </summary>
+        </member>
+        <!-- El comentario XML con formato incorrecto se ha omitido para el miembro "P:ADN.WPF.Controls.BindableTextBlock.InlineList" -->
+        <member name="T:ADN.WPF.Helpers.TreeViewItemHelper">
+            <summary>
+            Provides utilities to <see cref="T:System.Windows.Controls.TreeView"/> control.
+            </summary>
+        </member>
+        <member name="M:ADN.WPF.Helpers.TreeViewItemHelper.TreeViewItem_ExpandOnClick(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Expands the clicked item.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+            <example>
+            <code>
+            /* Add the property in your TreeView (.xaml) */
+            
+            <![CDATA[<TreeView TreeViewItem.Selected="TreeViewItem_ExpandOnClick">]]>
+            
+            /* In your .xaml.cs */
+            
+            private void TreeViewItem_ExpandOnClick(object sender, RoutedEventArgs e)
+            {
+                TreeViewItemHelper.TreeViewItem_ExpandOnClick(sender, e);
+            }
+            </code>
+            </example>
+        </member>
+    </members>
+</doc>
