@@ -96,7 +96,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\src\ADN.WPF\ADN.WPF.csproj">
-      <Project>{53fd2f87-0dc4-4217-b94f-9c7d5460ca95}</Project>
+      <Project>{4a77829e-0bc9-4de3-b694-e6ee3306f210}</Project>
       <Name>ADN.WPF</Name>
     </ProjectReference>
   </ItemGroup>
