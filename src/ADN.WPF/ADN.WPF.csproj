@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net461</TargetFramework>
+    <ProjectGuid>{9A75F594-9534-41A3-BB7D-9D5C0CC6B6FC}</ProjectGuid>
     <Version>1.0.0</Version>
     <Title>ADN.WPF</Title>
     <Authors>Andrés Di Giovanni</Authors>
