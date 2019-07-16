@@ -19,7 +19,7 @@ namespace ADN.WPF.Helpers
         /// <param name="sender"></param>
         /// <param name="e"></param>
         /// <example>
-        /// <code>
+        /// <code lang="csharp">
         /// /* Add the property in your TreeView (.xaml) */
         /// 
         /// <![CDATA[<TreeView TreeViewItem.Selected="TreeViewItem_ExpandOnClick">]]>

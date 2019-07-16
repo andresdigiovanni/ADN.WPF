@@ -19,10 +19,10 @@ namespace ADN.WPF.Controls
         /// Control content.
         /// </summary>
         /// <example>
-        /// <code>
+        /// <code lang="csharp">
         /// /* Create the control in your .xaml */
         /// 
-        /// <BindableTextBlock InlineList="{Binding Path=<your_property>}"/>
+        /// <![CDATA[<BindableTextBlock InlineList="{Binding Path=<your_property>}"/>]]>
         /// </code>
         /// </example>
         public ObservableCollection<Inline> InlineList

@@ -9,7 +9,18 @@
             Control that extends <see cref="T:System.Windows.Controls.TextBlock"/> functionality providing a bindable control.
             </summary>
         </member>
-        <!-- El comentario XML con formato incorrecto se ha omitido para el miembro "P:ADN.WPF.Controls.BindableTextBlock.InlineList" -->
+        <member name="P:ADN.WPF.Controls.BindableTextBlock.InlineList">
+            <summary>
+            Control content.
+            </summary>
+            <example>
+            <code lang="csharp">
+            /* Create the control in your .xaml */
+            
+            <![CDATA[<BindableTextBlock InlineList="{Binding Path=<your_property>}"/>]]>
+            </code>
+            </example>
+        </member>
         <member name="T:ADN.WPF.Helpers.TreeViewItemHelper">
             <summary>
             Provides utilities to <see cref="T:System.Windows.Controls.TreeView"/> control.
@@ -22,7 +33,7 @@
             <param name="sender"></param>
             <param name="e"></param>
             <example>
-            <code>
+            <code lang="csharp">
             /* Add the property in your TreeView (.xaml) */
             
             <![CDATA[<TreeView TreeViewItem.Selected="TreeViewItem_ExpandOnClick">]]>
