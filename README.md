@@ -9,6 +9,23 @@ ADN.WPF is a open-source library which provides WPF utilities to .NET developers
 [![Quality](https://sonarcloud.io/api/project_badges/measure?project=andresdigiovanni_ADN.WPF&metric=alert_status)](https://sonarcloud.io/dashboard?id=andresdigiovanni_ADN.WPF)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+## Basic usage
+
+Example tree view item expand on click:
+<br/>
+![DTW](resources/TreeViewItemHelper.png)
+
+```csharp
+/* Add the property in your TreeView (.xaml) */
+<TreeView TreeViewItem.Selected="TreeViewItem_ExpandOnClick">
+
+/* In your .xaml.cs */
+private void TreeViewItem_ExpandOnClick(object sender, RoutedEventArgs e)
+{
+    TreeViewItemHelper.TreeViewItem_ExpandOnClick(sender, e);
+}
+```
+
 ## Installation
 
 ADN.WPF runs on Windows.
